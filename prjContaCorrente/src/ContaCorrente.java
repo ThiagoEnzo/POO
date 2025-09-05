@@ -11,4 +11,17 @@ public class ContaCorrente {
         numero = n;
         saldo = s;        
     }
+    public int getNumero (){
+        return (numero);           
+    }
+    public double getSaldo(){
+        return (saldo);
+    }
+    public void sacar(int r){
+        saldo = saldo - r;
+    }
+    public void depositar(double d){
+        saldo = saldo + d;
+    }    
 }
+
